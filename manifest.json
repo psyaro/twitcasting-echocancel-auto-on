@@ -1,0 +1,13 @@
+{
+  "name": "twicas echo",
+  "version": "1",
+  "manifest_version": 2,
+  "description": "This is sample",
+  "content_scripts": [{
+    "matches": ["https://twitcasting.tv/*/broadcaster*"],
+    "js": [
+        "jquery-3.6.0.min.js",
+        "script.js"
+    ]
+  }]
+}

@@ -1,0 +1,1 @@
+$('input[value=echo-cancellation]').click();
